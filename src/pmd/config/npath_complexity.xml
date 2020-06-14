@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<ruleset name="ExampleRuleset"
+         xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 http://pmd.sourceforge.net/ruleset_2_0_0.xsd">
+
+    <description>
+        This ruleset turns off some rules. If you want to turn off more ones:
+        see:
+        <a href="http://pmd.sourceforge.net/pmd-4.3.0/rules/index.html"></a>
+    </description>
+
+    <rule ref="category/java/design.xml/NPathComplexity">
+        <properties>
+            <property name="reportLevel" value="1" />
+        </properties>
+    </rule>
+
+</ruleset>

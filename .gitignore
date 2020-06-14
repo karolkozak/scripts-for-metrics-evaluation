@@ -1,0 +1,11 @@
+.idea/
+/venv/
+
+/src/checkstyle/*.csv
+/src/checkstyle/config/checkstyle-8.26-all.jar
+/src/pmd/*.csv
+
+/src/loc-metric
+/src/signs-metric
+
+/src/*.csv
